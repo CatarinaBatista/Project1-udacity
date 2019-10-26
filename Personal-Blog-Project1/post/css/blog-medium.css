@@ -2,7 +2,7 @@
     .container {
         display: grid;
         grid-template-columns: 1fr 300px;
-        grid-template-rows: 250px 80px 1150px 55px;    
+        grid-template-rows: 250px 80px 1300px 55px;    
     }
 
     /* header */
@@ -95,13 +95,13 @@
         grid-area: 3/2/4/3;
         display: flex;
         flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 40px 0 0 0;
+        padding: 40px 30px 0 30px;
     }
 
-    .img-author img {
+    .author img {
         width: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* footer */
