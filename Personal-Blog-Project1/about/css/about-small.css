@@ -31,7 +31,7 @@
         text-align: justify;
     }
 
-    /* 'navbar' */
+    /* navbar */
     .menu {
         grid-area: "nav";
         justify-content: space-evenly;
