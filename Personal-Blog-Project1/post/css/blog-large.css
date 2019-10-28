@@ -1,8 +1,8 @@
 @media(min-width: 1281px) {
     .container {
         display: grid;
-        grid-template-columns: 1fr 300px;
-        grid-template-rows: 250px 80px 1300px 55px;    
+        grid-template-columns: 1fr 450px;
+        grid-template-rows: 250px 80px 1200px 55px;
     }
 
     /* header */
@@ -47,7 +47,8 @@
 
     /* main conten (recipe) */
     .main {
-        grid-area: 3/1/4/2;   
+        grid-area: 3/1/4/2;
+        padding: 0 50px 0 50px;
     }
 
     .intro {     
@@ -102,6 +103,24 @@
         width: 200px;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .social-media {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 10px 0 10px;
+    }
+
+    .social-media button {
+        height: 35px;
+        width: 40px;
+        border-radius: 20px;
+        background-color: #fdbd7d;
+        border: 1px solid black;
+    }
+
+    i {
+        color: black;
     }
 
     /* footer */

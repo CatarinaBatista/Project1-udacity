@@ -2,13 +2,12 @@
     .container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 300px 70px 270px 2700px 40px;
+        grid-template-rows: 300px 70px 650px 40px;
         grid-template-areas:
         "hd"
         "nav"
-        "sb"
         "main"
-        "ft";
+        "ft";  
     }
 
     /* header */
@@ -51,82 +50,24 @@
     a:hover {
         color: #d47c00;
     }
-    
-    /* sidebar (popular posts) */
-    .sidebar {
-        padding: 10px 0 20px 0;
-        grid-area: "sb";
-        margin: auto;
-    }
 
-    .sidebar a {
-        text-decoration: none;
-    }
-
-    .popular {
-        padding-left: 15px;
-    }
-
-    .popular a {
-        color: #235dc9;
-    }
-
-    /* main content (recipes) */
+    /* main */
     .main {
         grid-area: "main";
-        display: flex;
-        /*grid-template-columns: repeat(1, 1fr);*/
-        flex-direction: column;
-        align-items: center;
-        grid-gap: 40px;
+        padding: 40px 70px 40px 70px;
     }
 
-    .card {
-        height: 380px;
-        width: 300px;
-        border: 1px solid rgb(150, 150, 150);
-        border-radius: 10px;
-        padding: 0 0 15px 0;
-        margin-bottom: 40px;
-    }
-
-    .card:hover {
-        box-shadow: 5px 5px 8px rgba(206, 206, 206, 0.77);
-    }
-
-    .img-recipe {
-        width: 100%;
-        border-radius: 9px 9px 0 0;
-    }
-
-    .recipe-info {
-        padding: 0 25px 0 25px;
-    }
-
-    .recipe-details {
-        display: grid;
-    }
-
-    .btn-view {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .btn-view a {
-        text-decoration: none;
-        color: black;
-    }
-
-    button {
+    .social-media button {
+        height: 40px;
+        width: 50px;
         border-radius: 20px;
-        width: 90px;
-        height: 35px;
         background-color: #fdbd7d;
         border: 1px solid black;
+        margin-right: 30px;
     }
 
-    button:hover {
-        box-shadow: 5px 5px 8px rgba(206, 206, 206, 0.77);
+    i {
+        color: black;
     }
     
     /* footer */
