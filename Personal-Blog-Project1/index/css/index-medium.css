@@ -110,6 +110,10 @@
         background-color: #b8b8b8;
     }
 
+    .no-href {
+        color: #b8b8b8;
+    }
+
     button {
         border-radius: 20px;
         width: 80px;
