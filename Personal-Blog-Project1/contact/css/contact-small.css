@@ -2,7 +2,7 @@
     .container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 300px 70px 500px 40px;
+        grid-template-rows: 300px 70px 530px 40px;
         grid-template-areas:
         "hd"
         "nav"
@@ -16,13 +16,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font: 26px "Segoe Print";
+        font: 20px "Segoe Print";
+        text-align: center;
     }
 
     .img-header {
-        max-height: 150px;
+        max-height: 120px;
         width: auto;
-        margin-right: 50px;
+        margin-right: 20px;
     }
 
     /* body */
@@ -34,7 +35,7 @@
     /* navbar */
     .menu {
         grid-area: "nav";
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         display: flex;
         flex-direction: row;
@@ -54,7 +55,7 @@
     /* main */
     .main {
         grid-area: "main";
-        padding: 40px 70px 40px 70px;
+        padding: 40px;
     }
     
     /* footer */

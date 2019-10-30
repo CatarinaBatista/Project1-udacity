@@ -1,5 +1,5 @@
 /* All Responsive Stylesheets for blog-post.html */
 
-@import "blog-small.css";
-@import "blog-medium.css";
-@import "blog-large.css";
+@import "post-small.css";
+@import "post-medium.css";
+@import "post-large.css";

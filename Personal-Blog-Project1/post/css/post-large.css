@@ -2,7 +2,7 @@
     .container {
         display: grid;
         grid-template-columns: 1fr 450px;
-        grid-template-rows: 250px 80px 1200px 55px;
+        grid-template-rows: 250px 80px 1350px 55px;
     }
 
     /* header */
@@ -48,7 +48,7 @@
     /* main conten (recipe) */
     .main {
         grid-area: 3/1/4/2;
-        padding: 0 50px 0 50px;
+        padding: 0 30px 0 30px;
     }
 
     .intro {     

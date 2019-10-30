@@ -2,7 +2,7 @@
     .container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 250px 80px 500px 55px;
+        grid-template-rows: 250px 80px 600px 55px;
         grid-template-areas:
         "hd"
         "nav"
@@ -17,6 +17,7 @@
         align-items: center;
         justify-content: center;
         font: 36px "Segoe Print";
+        text-align: center;
     }
 
     .img-header {
